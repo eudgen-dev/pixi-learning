@@ -1,0 +1,33 @@
+@require 'nib'
+
+global-reset()
+
+html
+  box-sizing border-box;
+
+*, *:before, *:after
+  box-sizing inherit
+
+html, body
+  height 100%
+
+body
+  background #000
+  display flex
+  flex-direction row
+  // horizontally center
+  justify-content center
+  // vertically center
+  align-items center
+
+#loading
+  font 24px/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif
+  color #fff
+  font-weight 200
+  text-align center
+  display block
+  strong
+    font-weight bold
+
+canvas
+  display none
