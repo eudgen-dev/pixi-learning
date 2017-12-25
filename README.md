@@ -4,5 +4,5 @@
 
     npm install
     npm run build
-    node start
+    npm start
 
